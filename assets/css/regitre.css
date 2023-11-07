@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+/*navbar*/
+
+
+.header_section{
+    background-color: #111;
+    
+}
+.toggle_icon{
+   margin-left : 20px; 
+   
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.sidenav a {
+    padding: 4px 8px 4px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+
+footer h3{
+	color :#088178;
+}
+footer i {
+	color : white ;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 42px;
+    margin-left: 50px;
+}
+ul{
+    margin-top: 20px;
+    margin-right : 20px;
+}
+ul li
+{
+    display: inline;
+	list-style: none;
+	padding: 0 20px;
+	position: relative;
+}
+ul li a
+{
+    display: inline;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 600;
+	color: white;
+}
+ul li a:hover,
+ul li a.active{
+	color:#088178;
+}
+
+ ul li a.active::after,
+ul li a:hover::after{
+		content: "";
+		width: 30%;
+		height: 2px;
+		background: #088178;
+		position: absolute;
+		bottom: -4px;
+		left: 30px;
+}
+
+
+
+
+
+
+
+.main{
+	display: inline-flex;
+	box-shadow: 0 2px 10px 10px rgba(0,0,0,0.2);
+	border-radius: 20px;
+}
+ 
+.logo{
+	width: 550px;
+	height: 470px;
+	background-image: url('logregpic/regpic.jpg');
+	background-position: center;
+	background-size: cover;
+	border-radius: 20px;
+}
+
+
+.singin{
+	width: 320px;
+	background: #5d58ed;
+	color: #fff;
+	padding: 15px;
+	text-align: center;
+	border-radius: 20px;
+}
+
+
+form label{
+	float: left;
+	margin: 25px 0px 0px 40px;
+}
+
+label{
+	font-size: 14px;
+}
+
+form input , form button{
+	width: 200px;
+	height: 35px;
+	color: #fff;
+	background: #3b3e87;
+	outline: none;
+	border: none;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+form input[type]::placeholder{
+	color: #fff;
+	opacity: .7s;
+	padding-left: 3px;
+}
+
+form a{
+	color: #fff;
+	font-size: 14px;
+	float: right;
+	margin: 15px 45px;
+}
+
+form button{
+	background:#088178;
+	font-size: 16px;
+	padding: 1px;
+	 margin: 10px 0 10px 20px;
+	cursor: pointer;
+}
+
+form button{
+	transition: .5s;
+	background: #088178;
+} */
+
+/*footer*/
+   footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+footer .col{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-sart;
+	margin-bottom: 20px;
+	padding-left: 50px;
+}
+
+footer h4{
+	font-size: 14px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	
+}
+
+footer p{
+	font-size: 13px;
+	margin: 0 0 8px 0;
+	padding-left: 50px;
+	
+}
+
+footer a{
+	font-size: 13px;
+	text-decoration: none;
+	color: #222;
+	margin-bottom: 10px;
+	
+}
+
+footer .copyright{
+	width: 100%;
+	text-align: center;
+	
+}   
+
+
+
+/*footer*/

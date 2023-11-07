@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+/*navbar*/
+
+ body{
+    overflow: hidden;
+ }
+ .header_section{
+    background-color: #111;
+    
+}
+.toggle_icon{
+   margin-left : 20px; 
+   
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.sidenav a {
+    padding: 4px 8px 4px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 42px;
+    margin-left: 50px;
+}
+ul{
+    margin-top: 20px;
+    margin-right : 20px;
+}
+ul li
+{
+    display: inline;
+	list-style: none;
+	padding: 0 20px;
+	position: relative;
+}
+ul li a
+{
+    display: inline;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 600;
+	color: white;
+}
+ul li a:hover,
+ul li a.active{
+	color:#088178;
+}
+
+ ul li a.active::after,
+ul li a:hover::after{
+		content: "";
+		width: 30%;
+		height: 2px;
+		background: #088178;
+		position: absolute;
+		bottom: -4px;
+		left: 30px; 
+}
+#cmd .bet{
+    margin-right :50px
+}
